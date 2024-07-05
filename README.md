@@ -30,14 +30,14 @@ This project aims to provide a clear understanding of basic peripherals such as 
 - Implement PLL driver
 
 ## Planned Enhancements:
-DMA Support: Future updates will incorporate DMA capabilities for enhanced data transfer efficiency.
-Error handling: Enhance error handling and input validation in GPIO functions.
-System timer: For timing and delay requirements.
+1. DMA Support: Future updates will incorporate DMA capabilities for enhanced data transfer efficiency.
+2. Error handling: Enhance error handling and input validation in GPIO functions.
+3. System timer: For timing and delay requirements.
 
 ## Examples
-- ledtoggle.c: Example demonstrating LED toggling using GPIO output.
-- led_button.c: Example showing LED toggling based on a button press using GPIO input.
-- button_interrupt.c: Example illustrating interrupt-driven LED toggling on button press using GPIO.
+1. ledtoggle.c: Example demonstrating LED toggling using GPIO output.
+2. led_button.c: Example showing LED toggling based on a button press using GPIO input.
+3. button_interrupt.c: Example illustrating interrupt-driven LED toggling on button press using GPIO.
 
 ## Credits
 
