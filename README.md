@@ -1,6 +1,6 @@
 # STM32H723xx Peripheral Drivers
 
-This repository contains low-level drivers for STM32H723xx microcontroller peripherals.
+This repository contains low-level drivers for STM32H723xx microcontroller peripherals. The drivers are structured to be easily integrated into STM32 projects, offering clear APIs and documentation for straightforward implementation.
 
 ## Overview
 
@@ -10,23 +10,38 @@ This project aims to provide a clear understanding of basic peripherals such as 
 
 - [GPIO Driver](./driver/Inc/stm32h723xx_gpio_driver.h)
 - [MCU file](./driver/Inc/stm32h723xx.h)
+- [I2C Driver](./driver/Inc/stm32h723xx_i2c_driver.h) (Work in Progress)
+- [SPI Driver](./driver/Inc/stm32h723xx_spi_driver.h) (Work in Progress)
+- [USART Driver](./driver/Inc/stm32h723xx_usart_driver.h) (Work in Progress)
 
 ## GPIO Driver
 
-The GPIO driver provides functions to initialize GPIO pins, read input states, and control output states. It includes interrupt handling and callback registration.
+- GPIO pin initialization (mode, speed, type, pull-up/pull-down)
+- Reading from GPIO pins (single pin and whole port)
+- Writing to GPIO pins (single pin and whole port)
+- Pin toggling
+- Interrupt handling for GPIO pins
 
 ## TODO
 
-- Implement PLL driver
 - Implement I2C driver
 - Implement SPI driver
 - Implement USART driver
-- Implement Low Power support
-- Implement DMA support for the drivers
+- Implement PLL driver
+
+## Planned Enhancements:
+DMA Support: Future updates will incorporate DMA capabilities for enhanced data transfer efficiency.
+Error handling: Enhance error handling and input validation in GPIO functions.
+System timer: For timing and delay requirements.
+
+## Examples
+- ledtoggle.c: Example demonstrating LED toggling using GPIO output.
+- led_button.c: Example showing LED toggling based on a button press using GPIO input.
+- button_interrupt.c: Example illustrating interrupt-driven LED toggling on button press using GPIO.
 
 ## Credits
 
-This project was developed based on the knowledge acquired from the Udemy course "Learn bare metal driver development using Embedded C" by [FastBit Embedded].
+This repository draws inspiration from and acknowledges the learning gained from the Udemy course "Learn bare metal driver development using Embedded C" by [FastBit Embedded]., which provided valuable insights into STM32 microcontroller programming and driver development.
 
 ## License
 
