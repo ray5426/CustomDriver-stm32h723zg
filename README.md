@@ -30,9 +30,10 @@ This project aims to provide a clear understanding of basic peripherals such as 
 - Implement PLL driver
 
 ## Planned Enhancements:
-1. DMA Support: Future updates will incorporate DMA capabilities for enhanced data transfer efficiency.
-2. Error handling: Enhance error handling and input validation in GPIO functions.
-3. System timer: For timing and delay requirements.
+1. Power optimization: Implement power optimization techniques to disable previously enabled peripherals when not in use
+2. DMA Support: Future updates will incorporate DMA capabilities for enhanced data transfer efficiency.
+3. Error handling: Enhance error handling and input validation in GPIO functions.
+4. System timer: For timing and delay requirements.
 
 ## Examples
 1. ledtoggle.c: Example demonstrating LED toggling using GPIO output.
