@@ -41,7 +41,7 @@ System timer: For timing and delay requirements.
 
 ## Credits
 
-This repository draws inspiration from and acknowledges the learning gained from the Udemy course "Learn bare metal driver development using Embedded C" by [FastBit Embedded]., which provided valuable insights into STM32 microcontroller programming and driver development.
+This repository draws inspiration from and acknowledges the learning gained from the Udemy course ["Learn bare metal driver development using Embedded C" by FastBit Embedded Brain Academy,Kiran Nayak](https://www.udemy.com/share/1013Ng3@VABkCc6GwTbk57b8SRY2AJWhxvYKb2aLY6O6tfoBFEM3sCUwh_wwuI8bjuvegg59WA==/), which provided valuable insights into STM32 microcontroller programming and driver development.
 
 ## License
 
