@@ -8,8 +8,8 @@ This project aims to provide a clear understanding of basic peripherals such as 
 
 ## Contents
 
-- [GPIO Driver](./driver/stm32h723xx_gpio_driver.h)
-- [MCU file](./driver/stm32h723xx.h)
+- [GPIO Driver](./driver/Inc/stm32h723xx_gpio_driver.h)
+- [MCU file](./driver/Inc/stm32h723xx.h)
 
 ## GPIO Driver
 
